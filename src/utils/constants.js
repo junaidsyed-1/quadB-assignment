@@ -1,0 +1,2 @@
+export const DATA_API = 'https://api.tvmaze.com/search/shows?q=all';
+export const BUTTON_CSS = 'bg-blue-500 hover:bg-blue-700 text-white rounded-t-none font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline w-full';
