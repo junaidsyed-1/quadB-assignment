@@ -10,7 +10,7 @@ const MoviePage = ({ details }) => {
         <img
           src={image.original}
           alt={name}
-          className="w-full object-cover rounded-b-sm"
+          className="w-full object-cover rounded-b-sm h-svh sm:h-auto"
         />
       </div>
       <div className="w-full p-7 bg-[#0F0F0F] text-slate-200 rounded-br-sm">

@@ -8,7 +8,7 @@ const CardContainer = () => {
   return (
     <div>
       <h1 className="text-4xl font-bold text-center py-4">Latest Movies</h1>
-      <div className="container mx-auto flex flex-wrap gap-5">
+      <div className="container mx-auto flex flex-wrap gap-5 ">
         {movieInfo.map((movie) => (
           <Card key={movie.show.id} info={movie?.show} />
         ))}
